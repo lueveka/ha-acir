@@ -1,0 +1,22 @@
+{
+  "domain": "acir",
+  "name": "AC IR",
+  "documentation": "https://github.com/lueveka/ha-acir",
+  "dependencies": [],
+  "codeowners": [
+    "@lueveka"
+  ],
+  "requirements": [],
+  "homeassistant": "2023.12.0",
+  "version": "1.17.9",
+  "updater": {
+    "version": "0.1",
+    "releaseNotes": "Forked",
+    "files": [
+      "__init__.py",
+      "climate.py",
+      "controller.py",
+      "manifest.json"
+    ]
+  }
+}
